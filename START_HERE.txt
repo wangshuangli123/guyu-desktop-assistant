@@ -1,0 +1,21 @@
+谷雨电脑助手 0.5.0 开发预览版
+
+这是源码预览，不是独立 EXE 安装包，也不是完整桌面遥控产品。
+首次运行请先打开 README.md，按说明在本目录安装独立依赖并运行测试。
+已安装完成：双击 START.cmd 打开中文控制窗口；使用项目内 workspace 中的测试文件。
+模型接入：已安装并登录的兼容 Codex Windows 客户端可使用 CONNECT_CODEX.cmd。
+其他 stdio MCP 客户端参见 docs/CLIENT_SETUP.md。
+
+先恢复工具，再处理文件；终端默认关闭。写操作仍需在客户端逐项确认。
+停止操作使用暂停；暂停不会撤销已经发生的操作，终端权限不是工作区沙箱。
+版本备份和恢复请先用副本测试。关闭控制窗口会暂停后续操作。
+
+不包含模型账号、无限额度、API 密钥、云中转或服务器托管。
+未实现键鼠、浏览器自动化、PDF 生成、额外目录授权和当前 ChatGPT 网页直连。
+
+安全及隐私：SECURITY.md
+测试范围：docs/VALIDATION.md
+第三方许可：THIRD_PARTY_NOTICES.md 与 licenses/
+新增代码权利：RIGHTS.md；作者尚未选择通用对外许可证。
+
+runtime、cache、temp、logs、evidence、backups、workspace 都是本机数据，不要上传到公开仓库。

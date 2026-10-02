@@ -1,0 +1,21 @@
+# Local state is never part of the publication.
+runtime/
+cache/
+temp/
+logs/
+evidence/
+backups/
+workspace/
+dist/
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.*
+.codex/
+.agents/
+*.sqlite*
+*.db
+STATUS.json
+# Materialized locally from the exact compressed dependency lock.
+vendor/desktop-commander/package-lock.json
